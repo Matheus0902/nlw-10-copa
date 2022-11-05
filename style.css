@@ -119,6 +119,15 @@ header{
     animation: appear 0.2s;
 }
 
+.date:hover{
+    background-color: #000000;
+}
+
+.flag:hover{
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
 @keyframes appear {
     0% {
         transform: translateY(-50px);
